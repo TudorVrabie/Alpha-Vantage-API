@@ -1,9 +1,13 @@
 <?php return array (
-  'laravel/sail' => 
+  'laravel/horizon' => 
   array (
     'providers' => 
     array (
-      0 => 'Laravel\\Sail\\SailServiceProvider',
+      0 => 'Laravel\\Horizon\\HorizonServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Horizon' => 'Laravel\\Horizon\\Horizon',
     ),
   ),
   'laravel/sanctum' => 
